@@ -1,0 +1,25 @@
+.main_hero_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 80px);
+
+  .hero_title {
+    font-family: "Pixel Font7", sans-serif;
+    font-weight: 600;
+    font-size: 16rem;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: -80px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1480px) {
+  .main_hero_container .hero_title {
+    font-size: 10rem;
+    line-height: 1;
+    text-align: center;
+    
+  }
+}

@@ -1,0 +1,42 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --verde-principal: #38BC36;
+  --gris-bordes: #202020;
+}
+
+html {
+  padding: 0 40px 0 40px;
+  max-width: 1920px;
+  background-image: url(/noise-light.png);
+  background-repeat: repeat;
+  background-size: 100px 100px;
+}
+
+* {
+  font-family: "Montserrat";
+
+  ::selection {
+    background-color: var(--verde-principal);
+  }
+}
+
+h1,  h2, h3, h4, h5, h6 {
+  font-family: "Pixel Font7";
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}

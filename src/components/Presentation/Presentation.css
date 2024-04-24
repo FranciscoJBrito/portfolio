@@ -1,0 +1,59 @@
+.main_presentation_container {
+  display: grid;
+  grid-template-columns: 5.5fr 2.5fr;
+  gap: 2rem;
+
+  .text_presentation_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 3.5rem;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  picture {
+    display: inline-block;
+    background-color: gray;
+    max-width: 800px;
+    border-radius: 20px;
+    border: 1px solid var(--gris-bordes);
+
+    img {
+      max-width: 100%;
+      mix-blend-mode: multiply;
+      filter: grayscale(100%);
+      border-radius: 20px;
+      transition-property: filter mix-blend-mode background-color;
+      transition-duration: 0.5s;
+      /* transition: all ease-in-out 0.8s; */
+    }
+
+    :hover {
+      mix-blend-mode: normal;
+      filter: grayscale(0%);
+      background-color: transparent;
+      /* transition: all ease-in-out 0.8s; */
+      border-radius: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1480px) {
+  .main_presentation_container {
+
+      .text_presentation_container {
+        font-size: 2.5rem;
+      }
+
+    picture {
+      
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.contact_main_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  max-height: 100px;
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  .buttons_container {
+    display: flex;
+    padding: 8px 4px;
+    background-color: #080808;
+    border-radius: 40px;
+    border: 1px solid var(--gris-bordes);
+
+    a,
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      margin: 0 4px;
+      border-radius: 50%;
+      background-color: #111111;
+      border: 1px solid #202020;
+      transition-property: background-color;
+      transition-duration: 0.8s;
+    }
+
+    :hover {
+      background-color: var(--verde-principal);
+      transition: all ease-in-out 0.3s;
+    }
+  }
+}
