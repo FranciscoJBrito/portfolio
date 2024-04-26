@@ -17,8 +17,7 @@
     border-radius: 40px;
     border: 1px solid var(--gris-bordes);
 
-    a,
-    button {
+    .contact_btns {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -30,10 +29,16 @@
       border: 1px solid #202020;
       transition-property: background-color;
       transition-duration: 0.8s;
+      cursor: pointer;
+
+      svg {
+        width: 16px;
+        height: 16px;
+      }
     }
 
     :hover {
-      background-color: var(--verde-principal);
+      background-color: #202020;
       transition: all ease-in-out 0.3s;
     }
   }
