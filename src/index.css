@@ -12,6 +12,7 @@
   -moz-osx-font-smoothing: grayscale;
   --verde-principal: #38BC36;
   --gris-bordes: #202020;
+  --blanco-opaco: rgba(255, 255, 255, 0.87);
 }
 
 html {
@@ -20,14 +21,19 @@ html {
   background-image: url(/noise-light.png);
   background-repeat: repeat;
   background-size: 100px 100px;
+  cursor: url(/cursor.png), auto;
 }
 
 * {
-  font-family: "Montserrat";
+  font-family: "acumin-pro", sans-serif;
 
   ::selection {
     background-color: var(--verde-principal);
   }
+}
+
+body:hover #trailer {
+  opacity: 1;
 }
 
 h1,  h2, h3, h4, h5, h6 {
@@ -38,5 +44,5 @@ h1,  h2, h3, h4, h5, h6 {
 a {
   text-decoration: none;
   color: inherit;
-  cursor: pointer;
+  cursor: url(/pointer.png), pointer;
 }
