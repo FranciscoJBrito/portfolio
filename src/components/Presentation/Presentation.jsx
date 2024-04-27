@@ -1,14 +1,34 @@
+import Terminal from "../Terminal/Terminal";
+import WindowFrame from "../WindowFrame/WindowFrame";
 import "./Presentation.css";
 
 const Presentation = () => {
   return (
     <div className="main_presentation_container">
       <div className="text_presentation_container">
-            <p><b>Desarrollador de software</b> argentino, apasionado por la tecnología, <b>motivado por ayudar</b> y crecer profesionalmente.</p>
+        <p>
+          <b>Desarrollador de software</b>, apasionado por la tecnología y{" "}
+          <b>motivado por ayudar</b> y crecer profesionalmente.
+        </p>
+        <br />
+        <div className="stack_description">
+          <p>
+            Enfocado principalmente en el desarrollo de aplicaciones web con
+            tres lenguajes: <br />
+            JavaScript, TypeScript y Ruby.
+          </p>
+          <div className="stack_container">
+            <h4>Ruby</h4>
+            <p>Ruby on Rails.</p>
+            <br />
+            <h4>JavaScript & TypeScript</h4>
+            <p>React, Node.js, Express.js</p>
+          </div>
+        </div>
       </div>
-      <picture>
-        <img src="/profile-image-two.jpeg" alt="profile image" />
-      </picture>
+      <WindowFrame>
+        <Terminal />
+      </WindowFrame>
     </div>
   );
 };
