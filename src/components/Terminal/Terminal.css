@@ -1,0 +1,49 @@
+.terminal_main_container {
+
+  .terminal_results {
+    color: white;
+    width: calc(100% - 40px);
+    min-height: 400px;
+    max-height: 800px;
+    height: auto;
+    font-family: "Pixel Font7", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+
+  .prompt_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    bottom: 0;
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    border-top: 1px solid var(--gris-bordes);
+
+    .dolar_symbol {
+      color: var(--verde-principal);
+      margin-right: 10px;
+    }
+
+    .command_input {
+      background-color: transparent;
+      padding: 0;
+      border: 0;
+      caret-shape: block;
+      caret-color: var(--verde-principal);
+      width: 100%;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1480px) {
+  .terminal_main_container .terminal_results {
+      min-height: 300px;
+  }
+}
