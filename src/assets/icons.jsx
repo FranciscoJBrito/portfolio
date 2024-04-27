@@ -6,7 +6,7 @@ export const icons = {
       strokeLinejoin="round"
       viewBox="0 0 16 16"
       width="16"
-      style={{color: "currentcolor"}}
+      style={{ color: "currentcolor" }}
     >
       <path
         fillRule="evenodd"
@@ -23,7 +23,7 @@ export const icons = {
       strokeLinejoin="round"
       viewBox="0 0 16 16"
       width="16"
-      style={{color: "currentcolor"}}
+      style={{ color: "currentcolor" }}
     >
       <g clipPath="url(#clip0_872_3147)">
         <path
@@ -47,7 +47,7 @@ export const icons = {
       strokeLinejoin="round"
       viewBox="0 0 16 16"
       width="16"
-      style={{color: "currentcolor"}}
+      style={{ color: "currentcolor" }}
     >
       <path
         id="Subtract"
@@ -65,12 +65,29 @@ export const icons = {
       strokeLinejoin="round"
       viewBox="0 0 16 16"
       width="16"
-      style={{color: "currentcolor"}}
+      style={{ color: "currentcolor" }}
     >
       <path
         fillRule="evenodd"
         clipRule="evenodd"
         d="M0.5 0.5H5.75L9.48421 5.71053L14 0.5H16L10.3895 6.97368L16.5 15.5H11.25L7.51579 10.2895L3 15.5H1L6.61053 9.02632L0.5 0.5ZM12.0204 14L3.42043 2H4.97957L13.5796 14H12.0204Z"
+        fill="currentColor"
+      ></path>
+    </svg>
+  ),
+  curriculum: (
+    <svg
+      data-testid="geist-icon"
+      height="16"
+      strokeLinejoin="round"
+      viewBox="0 0 16 16"
+      width="16"
+      style={{ color: "currentcolor" }}
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M8.75 1V1.75V8.68934L10.7197 6.71967L11.25 6.18934L12.3107 7.25L11.7803 7.78033L8.70711 10.8536C8.31658 11.2441 7.68342 11.2441 7.29289 10.8536L4.21967 7.78033L3.68934 7.25L4.75 6.18934L5.28033 6.71967L7.25 8.68934V1.75V1H8.75ZM13.5 9.25V13.5H2.5V9.25V8.5H1V9.25V14C1 14.5523 1.44771 15 2 15H14C14.5523 15 15 14.5523 15 14V9.25V8.5H13.5V9.25Z"
         fill="currentColor"
       ></path>
     </svg>

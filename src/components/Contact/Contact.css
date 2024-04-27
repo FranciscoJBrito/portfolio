@@ -30,7 +30,8 @@
       border: 1px solid #202020;
       transition-property: background-color;
       transition-duration: 0.8s;
-      cursor: pointer;
+      cursor: url(/pointer.png), pointer;
+      transition: all ease-in-out 0.5s;
 
       svg {
         width: 16px;

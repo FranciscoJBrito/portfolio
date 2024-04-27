@@ -10,17 +10,27 @@ const Contact = () => {
         <CopyToClipboard
           text="francisco.brito.developer@gmail.com"
           data-tooltip-id="my-tooltip"
-          data-tooltip-content="Copiar correo"
+          data-tooltip-content="COPY EMAIL"
           data-tooltip-place="top"
         >
           <button className="contact_btns">{icons.email}</button>
         </CopyToClipboard>
         <a
           className="contact_btns"
+          href="https://github.com/FranciscoJBrito"
+          target="blank"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Descargar CV"
+          data-tooltip-place="top"
+        >
+          {icons.curriculum}
+        </a>
+        <a
+          className="contact_btns"
           href="https://www.linkedin.com/in/francisco-javier-brito-b4657420a/"
           target="blank"
           data-tooltip-id="my-tooltip"
-          data-tooltip-content="Linkedin"
+          data-tooltip-content="LINKEDIN"
           data-tooltip-place="top"
         >
           {icons.linkedin}
@@ -30,7 +40,7 @@ const Contact = () => {
           href="https://twitter.com/Francis86056304"
           target="blank"
           data-tooltip-id="my-tooltip"
-          data-tooltip-content="Twitter"
+          data-tooltip-content="TWITTER"
           data-tooltip-place="top"
         >
           {icons.twitter}
@@ -40,7 +50,7 @@ const Contact = () => {
           href="https://github.com/FranciscoJBrito"
           target="blank"
           data-tooltip-id="my-tooltip"
-          data-tooltip-content="Github"
+          data-tooltip-content="GITHUB"
           data-tooltip-place="top"
         >
           {icons.github}
@@ -50,7 +60,8 @@ const Contact = () => {
           style={{
             borderRadius: "18",
             fontFamily: "Pixel Font7",
-            background: "#38BC36",
+            color: "#ffffffde",
+            background: "#202020",
             transition: "all 0.5s ease",
           }}
         />
