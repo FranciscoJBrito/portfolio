@@ -1,3 +1,9 @@
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 .main_hero_container {
   display: flex;
   justify-content: center;
@@ -12,6 +18,16 @@
     line-height: 1.1;
     text-align: center;
     margin-top: -80px;
+
+    .dolar_symbol {
+      font-family: "Pixel Font7";
+      color: var(--verde-principal);
+    }
+
+    .blinking_cursor {
+      color: var(--verde-principal);
+      animation: blink 1.3s infinite;
+    }
   }
 }
 
@@ -20,6 +36,5 @@
     font-size: 10rem;
     line-height: 1;
     text-align: center;
-    
   }
 }
