@@ -3,28 +3,24 @@ import { useState } from "react";
 import { TerminalResults } from "./TerminalResults";
 
 const Terminal = () => {
-  const [commandResults, setCommandResults] = useState(TerminalResults.clear);
+  const [commandResults, setCommandResults] = useState(TerminalResults.default);
 
   const cases = (command) => {
     switch (command) {
       case "help":
         return "help";
-      case "about":
-        return "about";
-      case "projects":
-        return "projects";
-      case "contact":
-        return "contact";
       case "clear":
         return "clear";
       case "name":
         return "name";
-      case "lastname":
-        return "lastname";
       case "age":
         return "age";
       case "favorite_tool":
         return "favorite_tool";
+      case "country":
+        return "country";
+      case "goals":
+        return "goals";
       default:
         return "invalidCommand";
     }
