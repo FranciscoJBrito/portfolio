@@ -1,11 +1,18 @@
 export const TerminalResults = {
   help: (
     <div className="terminal_results">
+      <span className="command">{'> help'}</span>
       <p className="terminal_result">Available commands:</p>
-      <p className="terminal_result">about</p>
-      <p className="terminal_result">projects</p>
-      <p className="terminal_result">contact</p>
-      <p className="terminal_result">clear</p>
+      <ul className="result_list ">
+            <li>about</li>
+            <li>projects</li>
+            <li>contact</li>
+            <li>clear</li>
+            <li>name</li>
+            <li>lastname</li>
+            <li>age</li>
+            <li>favorite_tool</li>
+      </ul>
     </div>
   ),
   clear: (
@@ -22,9 +29,29 @@ export const TerminalResults = {
       <p className="terminal_result"></p>
     </div>
   ),
+  name: (
+    <div className="terminal_results">
+      <p className="terminal_result">Francisco</p>
+    </div>
+  ),
+  age: (
+    <div className="terminal_results">
+      <p className="terminal_result">23</p>
+    </div>
+  ),
+  lastname: (
+    <div className="terminal_results">
+      <p className="terminal_result">Brito</p>
+    </div>
+  ),
+  favorite_tool: (
+    <div className="terminal_results">
+      <p className="terminal_result">Docker</p>
+    </div>
+  ),
   invalidCommand: (
     <div className="terminal_results">
-      <p className="terminal_result">Invalid command</p>
+      <p className="terminal_result invalid">Invalid command</p>
     </div>
   ),
 };

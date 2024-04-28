@@ -17,6 +17,14 @@ const Terminal = () => {
         return "contact";
       case "clear":
         return "clear";
+      case "name":
+        return "name";
+      case "lastname":
+        return "lastname";
+      case "age":
+        return "age";
+      case "favorite_tool":
+        return "favorite_tool";
       default:
         return "invalidCommand";
     }
@@ -28,6 +36,7 @@ const Terminal = () => {
     const value = input.value;
     const command = cases(value);
     setCommandResults(TerminalResults[command]);
+    input.value = "";
   };
 
   const handleChange = (e) => {
@@ -43,7 +52,9 @@ const Terminal = () => {
 
   return (
     <div className="terminal_main_container">
+      <>
       {commandResults}
+      </>
       <div className="prompt_container">
         <span className="dolar_symbol">$</span>
         <form onSubmit={handleSubmit}>
