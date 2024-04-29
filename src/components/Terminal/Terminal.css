@@ -1,16 +1,33 @@
 .terminal_main_container {
-
   .terminal_results {
     color: white;
     width: calc(100% - 40px);
     min-height: 400px;
     max-height: 800px;
     height: auto;
-    font-family: "Pixel Font7", sans-serif;
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 10px;
     padding: 20px;
+
+
+    .command {
+      font-family: "Pixel Font7", sans-serif;
+      color: var(--verde-principal);
+    }
+
+    .result_list li {
+      list-style: square;
+      font-family: "Pixel Font7", sans-serif;
+    }
+
+    .terminal_result {
+      font-family: "Pixel Font7", sans-serif;
+    }
+
+    .invalid {
+      color: red;
+    }
   }
 
   .prompt_container {
@@ -27,16 +44,24 @@
       margin-right: 10px;
     }
 
-    .command_input {
-      background-color: transparent;
-      padding: 0;
-      border: 0;
-      caret-shape: block;
-      caret-color: var(--verde-principal);
+    form {
       width: 100%;
 
-      &:focus {
-        outline: none;
+      .command_input {
+        background-color: transparent;
+        padding: 0;
+        border: 0;
+        caret-shape: block;
+        caret-color: var(--verde-principal);
+        width: 100%;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .existing_command {
+        color: var(--verde-principal);
       }
     }
   }
@@ -44,6 +69,6 @@
 
 @media screen and (min-width: 1280px) and (max-width: 1480px) {
   .terminal_main_container .terminal_results {
-      min-height: 300px;
+    min-height: 300px;
   }
 }
