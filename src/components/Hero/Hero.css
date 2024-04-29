@@ -18,22 +18,19 @@
     line-height: 1.1;
     text-align: center;
     margin-top: -80px;
-
-    .dolar_symbol {
-      font-family: "Pixel Font7";
-      color: var(--verde-principal);
-    }
+    text-shadow: 5px 5px var(--verde-principal);
 
     .blinking_cursor {
       color: var(--verde-principal);
       animation: blink 1.3s infinite;
+      text-shadow: none;
     }
   }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1480px) {
   .main_hero_container .hero_title {
-    font-size: 10rem;
+    font-size: 12rem;
     line-height: 1;
     text-align: center;
   }
