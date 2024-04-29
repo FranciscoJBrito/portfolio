@@ -57,7 +57,7 @@ const Terminal = () => {
           <input
             type="text"
             className="command_input"
-            placeholder="Type here..."
+            placeholder="Escribe aquí..."
             onChange={handleChange}
             spellCheck="false"
           />
