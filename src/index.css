@@ -15,9 +15,13 @@
   --blanco-opaco: rgba(255, 255, 255, 0.87);
 }
 
+@font-face {
+  font-family: "Pixel Font7";
+  src: url(./assets/fonts/pixel-font-7.ttf) format("ttf");
+}
+
 html {
   padding: 0 40px 0 40px;
-  max-width: 1920px;
   background-image: url(/noise-light.png);
   background-repeat: repeat;
   background-size: 100px 100px;
@@ -26,11 +30,18 @@ html {
 
 * {
   font-family: "acumin-pro", sans-serif;
+  scroll-behavior: smooth;
 
   ::selection {
     background-color: var(--verde-principal);
   }
 }
+
+body {
+  margin: 0 auto;
+  max-width: 2704px;
+}
+
 
 body:hover #trailer {
   opacity: 1;
