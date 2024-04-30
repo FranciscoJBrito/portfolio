@@ -37,7 +37,7 @@ const Contact = () => {
         </a>
         <a
           className="contact_btns"
-          href="https://twitter.com/Francis86056304"
+          href="https://twitter.com/FranJBrito"
           target="blank"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="TWITTER"
