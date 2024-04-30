@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: "Pixel Font7";
-  src: url(../public/pixel-font-7.ttf), format("truetype");
+  src: url(/pixel-font-7.ttf), format("truetype");
 }
 
 html {
