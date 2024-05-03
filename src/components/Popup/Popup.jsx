@@ -1,8 +1,12 @@
 import "./Popup.css";
+import { technologiesIcons } from "../../assets/technologies_icons";
 
 const Popup = ({ title, image, tech, state, handle }) => {
   return (
-    <div className="main_popup_container" style={state ? {display: "flex"} : {display: "none"}}>
+    <div
+      className="main_popup_container"
+      style={state ? { display: "flex" } : { display: "none" }}
+    >
       <div className="popup_overlay" />
       <div className="popup_content">
         <div className="popup_image">
@@ -55,7 +59,13 @@ const Popup = ({ title, image, tech, state, handle }) => {
               </svg>
             </button>
           </div>
-          <div className="popup_tech">{tech}</div>
+          <div className="popup_tech">
+              {tech.map((icon, index) => (
+                <div key={index} className="stack_icon">
+                  {technologiesIcons[icon]}
+                </div>
+              ))}
+          </div>
           <div className="popup_description">
             {/* {children} */}
             Description

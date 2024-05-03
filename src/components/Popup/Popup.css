@@ -122,6 +122,23 @@
         border-radius: 8px;
         border: 1px solid #2e2e2e;
         background-color: #232323;
+        gap: 4px;
+
+        .stack_icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 40px;
+          height: 40px;
+          border-radius: 8px;
+          border: 1px solid #2e2e2e;
+          background-color: #232323;
+
+            svg {
+              width: 30px;
+              height: 30px;
+            }
+        }
       }
 
 

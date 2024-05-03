@@ -24,7 +24,7 @@ function App() {
       <Popup
         title={"Airbnb Clone"}
         image={"./mockup-airbnb-light.png"}
-        tech={"docker, rails, postgresql"}
+        tech={["tailwind", "postgresql", "docker", "ruby", "javascript", "rails"]}
         state={popup}
         handle={handlePopup}
       />
