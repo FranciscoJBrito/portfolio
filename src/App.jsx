@@ -3,7 +3,7 @@ import { useState } from "react";
 import Contact from "./components/Contact/Contact";
 import Hero from "./components/Hero/Hero";
 import Presentation from "./components/Presentation/Presentation";
-import Popup from "./layouts/ProjectView/components/Popup";
+import Popup from "./components/Popup/Popup";
 import Projects from "./layouts/Projects/Projects";
 
 function App() {
