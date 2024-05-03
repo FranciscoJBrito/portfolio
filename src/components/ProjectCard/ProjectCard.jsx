@@ -1,9 +1,9 @@
 import { technologiesIcons } from "../../assets/technologies_icons";
 import "./ProjectCard.css";
 
-const ProjectCard = ({ title, stack, image }) => {
+const ProjectCard = ({ title, stack, image, handle }) => {
   return (
-    <div className="main_container_project_card">
+    <div className="main_container_project_card" onClick={handle}>
       <div className="project_title_container">
         <h3 className="project_title">{title}</h3>
       </div>
