@@ -144,11 +144,12 @@
 
       .popup_description {
             display: flex;
+            flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
             width: -webkit-fill-available;
             height: -webkit-fill-available;
-            padding: 0 8px;
+            padding: 8px;
             border-radius: 8px;
             border: 1px solid #2e2e2e;
             background-color: #232323;

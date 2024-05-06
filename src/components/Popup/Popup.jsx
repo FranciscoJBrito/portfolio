@@ -1,21 +1,25 @@
 import "./Popup.css";
-import { technologiesIcons } from "../../assets/technologies_icons";
 
-const Popup = ({ title, image, tech, state, handle }) => {
+const Popup = ({ children, id, projectState }) => {
   return (
     <div
       className="main_popup_container"
-      style={state ? { display: "flex" } : { display: "none" }}
+      style={
+        projectState.isOpen && projectState.id == id
+          ? { display: "flex" }
+          : { display: "none" }
+      }
     >
       <div className="popup_overlay" />
-      <div className="popup_content">
+      {children}
+      {/* <div className="popup_content">
         <div className="popup_image">
-          <img src={image} alt={title} />
+          <img src={mockup} alt={title} />
         </div>
         <div className="popup_overview">
           <div className="popup_header">
             <h4 className="popup_title">{title}</h4>
-            <a className="popup_repo" href="#">
+            <a className="popup_repo" href={link}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -40,7 +44,7 @@ const Popup = ({ title, image, tech, state, handle }) => {
                 />
               </svg>
             </a>
-            <button className="popup_close" onClick={handle}>
+            <button className="popup_close" onClick={handlePopup}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -60,18 +64,18 @@ const Popup = ({ title, image, tech, state, handle }) => {
             </button>
           </div>
           <div className="popup_tech">
-              {tech.map((icon, index) => (
+              {stack.map((icon, index) => (
                 <div key={index} className="stack_icon">
                   {technologiesIcons[icon]}
                 </div>
               ))}
           </div>
           <div className="popup_description">
-            {/* {children} */}
+            {description.title}
             Description
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

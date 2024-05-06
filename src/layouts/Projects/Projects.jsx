@@ -1,27 +1,24 @@
 import "./Projects.css";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import data from "../../data/projects.json";
 
-const Projects = ({handle}) => {
+const Projects = () => {
   return (
     <div className="main_project_layout">
-      <ProjectCard
-        title="Airbnb Clone"
-        stack={["tailwind", "postgresql", "docker", "ruby", "javascript", "rails"]}
-        image={"/airbnb-logo.png"}
-        handle={handle}
-      />
-      <ProjectCard
-        title="Project 2"
-        stack={["css", "html", "react"]}
-        image={"/mockup-airbnb.png"}
-        handle={handle}
-      />
-      <ProjectCard
-        title="Project 3"
-        stack={["css", "postgresql", "rails"]}
-        image={"/mockup-airbnb.png"}
-        handle={handle}
-      />
+      {
+        data.map((project, index) => (
+          <ProjectCard
+            key={index}
+            id={index}
+            title={project.title}
+            stack={project.stack}
+            image={project.image}
+            mockup={project.mockup}
+            link={project.link}
+            description={project.description}
+          />
+        ))
+      }
     </div>
   );
 };
