@@ -12,7 +12,9 @@
   -moz-osx-font-smoothing: grayscale;
   --verde-principal: #38BC36;
   --gris-bordes: #202020;
+  --white-shadow: #ffffff0d;
   --blanco-opaco: rgba(255, 255, 255, 0.87);
+  --cursor-pointer: url(/pointer.png), pointer;
 }
 
 @font-face {
@@ -55,5 +57,5 @@ h1,  h2, h3, h4, h5, h6 {
 a {
   text-decoration: none;
   color: inherit;
-  cursor: url(/pointer.png), pointer;
+  cursor: var(--cursor-pointer);
 }
