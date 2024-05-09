@@ -12,12 +12,12 @@ function App() {
       <Presentation />
       <h2 className="query_project_title">
         SELECT <span>*</span> FROM{" "}
-        <span style={{ fontFamily: "Pixel Font7" }}>projects</span>
+        <span style={{ fontFamily: "Pixel Font7" }}>projects</span><span style={{color: 'white'}}>;</span>
       </h2>
       <Projects />
       <h2 className="query_about_me_title">
         SELECT <span>*</span> FROM{" "}
-        <span style={{ fontFamily: "Pixel Font7" }}>me</span>
+        <span style={{ fontFamily: "Pixel Font7" }}>me</span><span style={{color: 'white'}}>;</span>
       </h2>
       <AboutMe />
       <Contact />

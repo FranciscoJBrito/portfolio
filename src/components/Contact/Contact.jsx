@@ -2,7 +2,22 @@ import { icons } from "../../assets/icons";
 import "./Contact.css";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Tooltip } from "react-tooltip";
+import toast, { Toaster } from "react-hot-toast";
 
+const notify = () =>
+  toast.success("Email copiado al portapapeles!", {
+    duration: 4000,
+    style: {
+      border: "1px solid #38BC36",
+      padding: "16px",
+      color: "#ffffff",
+      background: "#202020",
+    },
+    iconTheme: {
+      primary: "#38BC36",
+      secondary: "#FFFAEE",
+    },
+  });
 const Contact = () => {
   return (
     <div className="contact_main_container">
@@ -13,7 +28,9 @@ const Contact = () => {
           data-tooltip-content="COPY EMAIL"
           data-tooltip-place="top"
         >
-          <button className="contact_btns">{icons.email}</button>
+          <button className="contact_btns" onClick={notify}>
+            {icons.email}
+          </button>
         </CopyToClipboard>
         <a
           className="contact_btns"
@@ -66,6 +83,7 @@ const Contact = () => {
           }}
         />
       </div>
+      <Toaster position="top-center" reverseOrder={false} />
     </div>
   );
 };
