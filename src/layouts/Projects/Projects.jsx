@@ -5,8 +5,8 @@ import data from "../../data/projects.json";
 const Projects = () => {
   return (
     <div className="main_project_layout">
-      {
-        data.map((project, index) => (
+      <div className="projects_container">
+        {data.map((project, index) => (
           <ProjectCard
             key={index}
             id={index}
@@ -17,8 +17,16 @@ const Projects = () => {
             link={project.link}
             description={project.description}
           />
-        ))
-      }
+        ))}
+      </div>
+      <div className="more_projects_btn">
+        <a
+          href="https://github.com/FranciscoJBrito?tab=repositories"
+          target="blank"
+        >
+          Ver Mas proyectos
+        </a>
+      </div>
     </div>
   );
 };
