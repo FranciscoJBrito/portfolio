@@ -2,6 +2,7 @@ import "./App.css";
 import Contact from "./components/Contact/Contact";
 import Hero from "./components/Hero/Hero";
 import Presentation from "./components/Presentation/Presentation";
+import AboutMe from "./layouts/AboutMe/AboutMe";
 import Projects from "./layouts/Projects/Projects";
 
 function App() {
@@ -14,6 +15,11 @@ function App() {
         <span style={{ fontFamily: "Pixel Font7" }}>projects</span>
       </h2>
       <Projects />
+      <h2 className="query_about_me_title">
+        SELECT <span>*</span> FROM{" "}
+        <span style={{ fontFamily: "Pixel Font7" }}>me</span>
+      </h2>
+      <AboutMe />
       <Contact />
     </>
   );
