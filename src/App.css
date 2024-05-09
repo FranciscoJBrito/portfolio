@@ -11,8 +11,25 @@
       }
 }
 
+.query_about_me_title {
+      font-family: "Pixel Font7", sans-serif;
+      font-weight: 600;
+      font-size: 8rem;
+      line-height: 1.1;
+      text-align: center;
+      margin: 100px 0;
+
+      span {
+            color: var(--verde-principal);
+      }
+}
+
 @media screen and (min-width: 1280px) and (max-width: 1480px) {
       .query_project_title {
+            font-size: 6rem;
+      }
+
+      .query_about_me_title {
             font-size: 6rem;
       }
       

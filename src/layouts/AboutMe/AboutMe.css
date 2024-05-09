@@ -1,0 +1,171 @@
+.about_me_main_container {
+  display: grid;
+  width: 100%;
+  max-height: 90vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  aspect-ratio: 1/1;
+  gap: 1rem;
+
+  .bento_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--gris-bordes);
+    background-color: black;
+  }
+
+  .background_info {
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+
+    .profile_description {
+      h4 {
+        font-size: 2rem;
+      }
+
+      p {
+        color: var(--gris-textos);
+        font-size: 1.2rem;
+
+        span {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .open_source_contributions {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    h4 {
+      font-size: 2rem;
+    }
+
+    p {
+      color: var(--gris-textos);
+      font-size: 1.2rem;
+
+      a {
+        color: var(--verde-principal);
+        cursor: var(--cursor-pointer);
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .technology_stack {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+    h4 {
+      font-size: 2rem;
+    }
+  }
+
+  .profile_image {
+    grid-column: 2 / 3;
+    grid-row: 3 / 5;
+    filter: grayscale(80%);
+  }
+
+  .experience {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+
+    h4 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .experience_history {
+      display: flex;
+      width: 100%;
+      height: 40px;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        color: var(--verde-principal);
+        font-size: 1.2rem;
+        width: 40%;
+      }
+      span {
+        width: -webkit-fill-available;
+        font-size: 1.2rem;
+        color: var(--blanco-opaco);
+      }
+    }
+  }
+
+  .spotify {
+    grid-column: 3 / 4;
+    grid-row: 2 / 5;
+
+    h4 {
+      font-size: 2rem;
+      margin-bottom: 20px; 
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1480px) {
+  .about_me_main_container {
+    .background_info {
+      .profile_description {
+        h4 {
+          font-size: 1.6rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .open_source_contributions {
+      h4 {
+        font-size: 1.6rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .technology_stack {
+      h4 {
+        font-size: 1.6rem;
+      }
+    }
+
+    .experience {
+      h4 {
+        font-size: 1.6rem;
+      }
+
+      .experience_history {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+          font-size: 1rem;
+        }
+        span {
+          font-size: 1rem;
+          color: var(--blanco-opaco);
+        }
+      }
+    }
+
+    .spotify {
+      h4 {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
