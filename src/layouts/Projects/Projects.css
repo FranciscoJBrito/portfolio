@@ -1,4 +1,41 @@
 .main_project_layout {
-      display: flex;
-      gap: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+
+  .projects_container {
+    display: flex;
+    width: 100%;
+    gap: 0 1rem;
+  }
+
+  .more_projects_btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Pixel Font7", sans-serif;
+    margin: 80px 0;
+    min-width: 100px;
+    min-height: 50px;
+    width: 250px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    border: 1px solid #000000;
+    background-color: var(--blanco-opaco);
+    box-shadow: 5px 5px var(--verde-principal);
+    transition-property: background-color, box-shadow, color, border;
+    transition-duration: 0.5s;
+
+
+    &:hover {
+      box-shadow: 0px 0px var(--verde-principal);
+      background-color: black;
+      color: var(--verde-principal);
+      border: 1px solid var(--verde-principal);
+    }
+  }
 }
