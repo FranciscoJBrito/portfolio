@@ -26,7 +26,7 @@
     "image": "/link-logo.png",
     "mockup": "/mockup-airbnb-light.png",
     "stack": ["ruby", "docker", "rails", "css", "javascript"],
-    "link": "https://airbnb-clone-1b7b7.web.app/",
+    "link": "https://github.com/FranciscoJBrito/link_shortener",
     "description": {
       "title": "Link shortner",
       "description": "Airbnb Clone is a web application that allows you to search for places to stay in different cities. It has a login system, a search engine, and a map that shows the places available in the city you are looking for. It also has a calendar to select the dates of your stay and a carousel with the images of the place."
