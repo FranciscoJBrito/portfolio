@@ -14,7 +14,7 @@
     "title": "Store Api",
     "image": "/store-logo.png",
     "mockup": "/mockup-airbnb-light.png",
-    "stack": ["ruby", "docker", "rails", "css", "javascript"],
+    "stack": ["ruby", "docker", "rails"],
     "link": "https://github.com/FranciscoJBrito/api_tienda",
     "description": {
       "title": "Store Api",
