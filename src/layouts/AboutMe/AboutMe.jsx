@@ -46,7 +46,7 @@ const AboutMe = () => {
         <p>
           <span>Frontend</span> - HTML, CSS, JavaScript, React
           <br />
-          <span>Backend</span> - Node.js, Express, Python
+          <span>Backend</span> - Node.js, Express, Ruby on Rails
           <br />
           <span>Base de datos</span> - MongoDB, MySQL, PostgreSQL
         </p>

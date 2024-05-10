@@ -34,7 +34,7 @@ const Contact = () => {
         </CopyToClipboard>
         <a
           className="contact_btns"
-          href="https://github.com/FranciscoJBrito"
+          href="https://drive.google.com/file/d/1foTCU4ILDVasFjYE2YP__7zaFQMvCz6u/view?usp=sharing"
           target="blank"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Descargar CV"
