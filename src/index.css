@@ -32,6 +32,13 @@ html {
   padding-bottom: 100px;
 }
 
+@media screen and (min-width: 100px) and (max-width: 900px) {
+
+  html {
+    padding: 0 20px 0 20px;
+  }
+}
+
 * {
   font-family: "acumin-pro", sans-serif;
   scroll-behavior: smooth;
