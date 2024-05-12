@@ -1,22 +1,28 @@
 .main_container_navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      height: 80px;
-      max-height: 80px;
-      border-bottom: 1px solid #202020;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 80px;
+  max-height: 80px;
+  border-bottom: 1px solid #202020;
 
-      h1 {
-            color: var(--verde-principal);
-      }
+  h1 {
+    color: var(--verde-principal);
+  }
 }
 
 .nav_container {
-      display: flex;
-      align-items: center;
+  display: flex;
+  align-items: center;
 
-      a {
-            margin: 0 10px;
-      }
+  a {
+    margin: 0 10px;
+
+    &:hover {
+      color: var(--verde-principal);
+      font-family: "acumin-pro", sans-serif;
+    }
+  }
 }
+

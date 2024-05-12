@@ -36,9 +36,15 @@ const AboutMe = () => {
       <div className="bento_container open_source_contributions">
         <h4>Contribuciones Open Source</h4>
         <p>
-          <span>2024</span> - Contribuciones en <a href="https://github.com/chatwoot/chatwoot" target="black">Chatwoot</a>
+          <span>2024</span> - Contribuciones en{" "}
+          <a href="https://github.com/chatwoot/chatwoot" target="black">
+            Chatwoot
+          </a>
           <br />
-          <span>2024</span> - Contribuciones en <a href="https://github.com/solidusio/solidus" target="black">Solidus</a>
+          <span>2024</span> - Contribuciones en{" "}
+          <a href="https://github.com/solidusio/solidus" target="black">
+            Solidus
+          </a>
         </p>
       </div>
       <div className="bento_container technology_stack">
@@ -99,7 +105,14 @@ const AboutMe = () => {
           loading="lazy"
         ></iframe>
         {/* Basement */}
-        <iframe style={{ borderRadius: "12px", border: "none", margin: "5px 0px" }} src="https://open.spotify.com/embed/track/1AMADyXgIWayh5vXLZo2qF?utm_source=generator&theme=0" width="100%" height="80px" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe
+          style={{ borderRadius: "12px", border: "none", margin: "5px 0px" }}
+          src="https://open.spotify.com/embed/track/1AMADyXgIWayh5vXLZo2qF?utm_source=generator&theme=0"
+          width="100%"
+          height="80px"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
       </div>
     </div>
   );

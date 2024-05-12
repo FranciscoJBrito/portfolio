@@ -30,12 +30,23 @@
     transition-property: background-color, box-shadow, color, border;
     transition-duration: 0.5s;
 
-
     &:hover {
       box-shadow: 0px 0px var(--verde-principal);
       background-color: black;
       color: var(--verde-principal);
       border: 1px solid var(--verde-principal);
+    }
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 1400px) {
+  .main_project_layout {
+    .projects_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
     }
   }
 }

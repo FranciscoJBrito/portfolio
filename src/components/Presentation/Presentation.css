@@ -14,7 +14,7 @@
     line-height: 1.2;
 
     p {
-      color: var(--gris-textos); 
+      color: var(--gris-textos);
       margin: 0;
       padding: 0;
 
@@ -57,5 +57,12 @@
         font-size: 1.4rem;
       }
     }
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 1400px) {
+  .main_presentation_container {
+    display: flex;
+    flex-direction: column;
   }
 }
