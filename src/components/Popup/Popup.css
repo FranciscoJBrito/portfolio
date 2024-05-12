@@ -157,3 +157,28 @@
     }
   }
 }
+
+@media screen and (min-width: 100px) and (max-width: 900px) {
+  .main_popup_container {
+    .popup_content {
+      height: 95%;
+      flex-direction: column-reverse;
+      gap: 8px;
+
+      .popup_image {
+        width: 100%;
+        height: 50%;
+        background-color: #F4F4F4;
+
+        img {
+          max-width: 100%;
+        }
+      }
+
+      .popup_overview {
+        width: calc(100% - 16px);
+        height: 50%;
+      }
+    }
+  }
+}
