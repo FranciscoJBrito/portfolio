@@ -36,3 +36,11 @@
     text-align: center;
   }
 }
+
+@media screen and (min-width: 100px) and (max-width: 900px) {
+  .main_hero_container .hero_title {
+    font-size: 8rem;
+    line-height: 1;
+    text-align: center;
+  }
+}

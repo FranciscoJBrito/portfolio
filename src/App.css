@@ -32,5 +32,14 @@
       .query_about_me_title {
             font-size: 6rem;
       }
-      
+}
+
+@media screen and (min-width: 100px) and (max-width: 900px) {
+      .query_project_title {
+            font-size: 4rem;
+      }
+
+      .query_about_me_title {
+            font-size: 4rem;
+      }
 }

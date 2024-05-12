@@ -72,3 +72,14 @@
     min-height: 300px;
   }
 }
+
+@media screen and (min-width: 100px) and (max-width: 900px) {
+  .terminal_main_container .terminal_results {
+    min-height: 200px;
+
+
+    .ascii {
+      font-size: 0.5rem;
+    }
+  }
+}

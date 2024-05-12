@@ -54,11 +54,11 @@ export const TerminalResults = {
   ),
   default: (
     <div className="terminal_results">
-      <p style={{fontFamily: 'cursor, monospace', margin: '0', color: '#38BC36'}}>&nbsp;____&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_</p>
-      <p style={{fontFamily: 'cursor, monospace', margin: '0', color: '#38BC36'}}>|&nbsp;__&nbsp;)(_)&nbsp;___&nbsp;_&nbsp;____&nbsp;&nbsp;&nbsp;_____&nbsp;_&nbsp;__&nbsp;(_)&nbsp;__|&nbsp;|&nbsp;___&nbsp;&nbsp;___</p>
-      <p style={{fontFamily: 'cursor, monospace', margin: '0', color: '#38BC36'}}>|&nbsp;&nbsp;_&nbsp;\|&nbsp;|/&nbsp;_&nbsp;\&nbsp;'_&nbsp;\&nbsp;\&nbsp;/&nbsp;/&nbsp;_&nbsp;\&nbsp;'_&nbsp;\|&nbsp;|/&nbsp;_`&nbsp;|/&nbsp;_&nbsp;\/&nbsp;__|</p>
-      <p style={{fontFamily: 'cursor, monospace', margin: '0', color: '#38BC36'}}>|&nbsp;|_)&nbsp;|&nbsp;|&nbsp;&nbsp;__/&nbsp;|&nbsp;|&nbsp;\&nbsp;V&nbsp;/&nbsp;&nbsp;__/&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;(_|&nbsp;|&nbsp;(_)&nbsp;\__&nbsp;\</p>
-      <p style={{fontFamily: 'cursor, monospace', margin: '0', color: '#38BC36'}}>|____/|_|\___|_|&nbsp;|_|\_/&nbsp;\___|_|&nbsp;|_|_|\__,_|\___/|___/</p>
+      <p className="ascii" style={{fontFamily: 'cursor, monospace', margin: '0', color: '#38BC36'}}>&nbsp;____&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_</p>
+      <p className="ascii" style={{fontFamily: 'cursor, monospace', margin: '0', color: '#38BC36'}}>|&nbsp;__&nbsp;)(_)&nbsp;___&nbsp;_&nbsp;____&nbsp;&nbsp;&nbsp;_____&nbsp;_&nbsp;__&nbsp;(_)&nbsp;__|&nbsp;|&nbsp;___&nbsp;&nbsp;___</p>
+      <p className="ascii" style={{fontFamily: 'cursor, monospace', margin: '0', color: '#38BC36'}}>|&nbsp;&nbsp;_&nbsp;\|&nbsp;|/&nbsp;_&nbsp;\&nbsp;'_&nbsp;\&nbsp;\&nbsp;/&nbsp;/&nbsp;_&nbsp;\&nbsp;'_&nbsp;\|&nbsp;|/&nbsp;_`&nbsp;|/&nbsp;_&nbsp;\/&nbsp;__|</p>
+      <p className="ascii" style={{fontFamily: 'cursor, monospace', margin: '0', color: '#38BC36'}}>|&nbsp;|_)&nbsp;|&nbsp;|&nbsp;&nbsp;__/&nbsp;|&nbsp;|&nbsp;\&nbsp;V&nbsp;/&nbsp;&nbsp;__/&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;(_|&nbsp;|&nbsp;(_)&nbsp;\__&nbsp;\</p>
+      <p className="ascii" style={{fontFamily: 'cursor, monospace', margin: '0', color: '#38BC36'}}>|____/|_|\___|_|&nbsp;|_|\_/&nbsp;\___|_|&nbsp;|_|_|\__,_|\___/|___/</p>
       <br />
       <p className="terminal_result">Bienvenido a mi portafolio:</p>
       <p className="terminal_result">
