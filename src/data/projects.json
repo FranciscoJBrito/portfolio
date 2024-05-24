@@ -7,7 +7,7 @@
     "link": "https://github.com/FranciscoJBrito/airbnb_clone",
     "description": {
       "title": "Airbnb Clone",
-      "description": "Airbnb Clone is a web application that allows you to search for places to stay in different cities. It has a login system, a search engine, and a map that shows the places available in the city you are looking for. It also has a calendar to select the dates of your stay and a carousel with the images of the place."
+      "description": "Este proyecto es un clon de Airbnb, en el cual se pueden publicar propiedades, pero también guardarlas en una lista de favoritos. Para desarrollar este proyecto utilice gemas como Devise para la gestión de usuarios o Rspec para los tests, por otro lado Active Storage para el manejo de imágenes, Stimulus para la interacción con el DOM y Tailwind para el diseño."
     }
   },
   {
@@ -18,18 +18,18 @@
     "link": "https://github.com/FranciscoJBrito/api_tienda",
     "description": {
       "title": "Store Api",
-      "description": "Airbnb Clone is a web application that allows you to search for places to stay in different cities. It has a login system, a search engine, and a map that shows the places available in the city you are looking for. It also has a calendar to select the dates of your stay and a carousel with the images of the place."
+      "description": "Store API es una API que permite a los usuarios crear productos, categorías y pedidos. Para desarrollar este proyecto utilice gemas como Devise para la gestión de usuarios o Rspec para los tests, por otro lado Active Storage para el manejo de imágenes y JWT para la autenticación."
     }
   },
   {
-    "title": "Link shortner",
+    "title": "Link shortener",
     "image": "/link-logo.png",
     "mockup": "/mockup-airbnb-light.png",
     "stack": ["ruby", "docker", "rails", "css", "javascript"],
     "link": "https://github.com/FranciscoJBrito/link_shortener",
     "description": {
-      "title": "Link shortner",
-      "description": "Airbnb Clone is a web application that allows you to search for places to stay in different cities. It has a login system, a search engine, and a map that shows the places available in the city you are looking for. It also has a calendar to select the dates of your stay and a carousel with the images of the place."
+      "title": "Link shortener",
+      "description": "Link shortener es una aplicación que permite acortar enlaces, para desarrollar este proyecto utilice gemas como Devise para la gestión de usuarios o Rspec para los tests, por otro lado Stimulus para la interacción con el DOM y tailwind para los estilos."
     }
   }
 ]
