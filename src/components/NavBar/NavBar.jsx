@@ -7,8 +7,9 @@ const NavBar = () => {
       <h1>FRAN.</h1>
       <nav className="nav_container">
         <a href="#projects">PROYECTOS</a>
-        <a href="#about">SOBRE MI</a>
-        <Dropdown />
+        <a className="about" href="#about">SOBRE MI</a>
+        {/* <div className="divider" />
+        <Dropdown /> */}
       </nav>
     </div>
   );

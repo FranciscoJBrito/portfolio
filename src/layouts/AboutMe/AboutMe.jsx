@@ -45,6 +45,11 @@ const AboutMe = () => {
           <a href="https://github.com/solidusio/solidus" target="black">
             Solidus
           </a>
+          <br />
+          <span>2024</span> - Contribuciones en{" "}
+          <a href="https://github.com/hudy9x/namviek" target="black">
+            Namviek
+          </a>
         </p>
       </div>
       <div className="bento_container technology_stack">
@@ -54,7 +59,7 @@ const AboutMe = () => {
           <br />
           <span>Backend</span> - Node.js, Express, Ruby on Rails
           <br />
-          <span>Base de datos</span> - MongoDB, MySQL, PostgreSQL
+          <span>Bases de datos</span> - MongoDB, MySQL, PostgreSQL
         </p>
       </div>
       <div

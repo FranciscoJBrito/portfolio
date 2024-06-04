@@ -1,14 +1,19 @@
 import Terminal from "../Terminal/Terminal";
 import WindowFrame from "../WindowFrame/WindowFrame";
 import "./Presentation.css";
+import { Trans } from "react-i18next";
 
 const Presentation = () => {
   return (
     <div className="main_presentation_container">
       <div className="text_presentation_container">
         <p>
-          <b>Desarrollador de software</b>, apasionado por la tecnología y{" "}
-          <b>motivado por ayudar</b> y crecer profesionalmente.
+          <Trans 
+            i18nKey={"description.title"}
+            components={{1: <b />}}
+          >
+            <b>Desarrollador de software</b>, apasionado por la tecnología y <b>motivado por ayudar</b> y crecer profesionalmente.
+          </Trans>
         </p>
         <br />
         <div className="stack_description">

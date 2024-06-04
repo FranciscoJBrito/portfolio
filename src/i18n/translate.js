@@ -6,23 +6,31 @@ i18next
   .use(initReactI18next)
   .use(LanguageDetector)
   .init({
-    lang: "en",
-    fallbackLng: "en",
+    debug: true,
+    fallbackLng: "es",
     resources: {
       en: {
         translation: {
-          hola: "HELLO, I'M",
-          fran: "FRANCISCO",
+          hola: "HOLA, YO",
+          fran: "SOY FRAN",
+          description: {
+            title:
+              "<1>Desarrollador de software</1>, apasionado por la tecnología y <1>motivado por ayudar</1> y crecer profesionalmente.",
+          },
         },
       },
       es: {
         translation: {
           hola: "HOLA, YO",
           fran: "SOY FRAN",
+          description: {
+            title:
+              "<1>Desarrollador de software</1>, apasionado por la tecnología y <1>motivado por ayudar</1> y crecer profesionalmente.",
+          },
         },
       },
     },
-/*     interpolation: {
+    interpolation: {
       escapeValue: false,
-    }, */
+    },
   });

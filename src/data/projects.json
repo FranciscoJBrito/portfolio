@@ -13,9 +13,9 @@
   {
     "title": "Store Api",
     "image": "/store-logo.png",
-    "mockup": "/mockup-airbnb-light.png",
+    "mockup": "/mockup-store.png",
     "stack": ["ruby", "docker", "rails"],
-    "link": "https://github.com/FranciscoJBrito/api_tienda",
+    "link": "https://github.com/FranciscoJBrito/store_api",
     "description": {
       "title": "Store Api",
       "description": "Store API es una API que permite a los usuarios crear productos, categorías y pedidos. Para desarrollar este proyecto utilice gemas como Devise para la gestión de usuarios o Rspec para los tests, por otro lado Active Storage para el manejo de imágenes y JWT para la autenticación."
@@ -24,9 +24,9 @@
   {
     "title": "Link shortener",
     "image": "/link-logo.png",
-    "mockup": "/mockup-airbnb-light.png",
+    "mockup": "/mockup-shortener.png",
     "stack": ["ruby", "docker", "rails", "css", "javascript"],
-    "link": "https://github.com/FranciscoJBrito/link_shortener",
+    "link": "https://github.com/FranciscoJBrito/shortener",
     "description": {
       "title": "Link shortener",
       "description": "Link shortener es una aplicación que permite acortar enlaces, para desarrollar este proyecto utilice gemas como Devise para la gestión de usuarios o Rspec para los tests, por otro lado Stimulus para la interacción con el DOM y tailwind para los estilos."
